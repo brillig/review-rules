@@ -1,0 +1,47 @@
+\input texinfo @c -*-texinfo-*-
+@setfilename guide.info
+@include version.texi
+@settitle Guidelines for modern code review @value{UPDATED-MONTH}
+@setchapternewpage odd
+
+@finalout
+
+@smallbook
+
+
+@copying
+
+MIT licensed.
+
+
+@shorttitlepage Modern review rules.
+
+@titlepage
+@title Guidelines for modern code review
+@subtitle @value{UPDATED-MONTH}
+@author John Hanley
+
+@page
+@vskip 0pt plus 1filll
+@insertcopying
+@end titlepage
+
+@ifnottex
+@node Top
+@top review rules
+
+@insertcopying
+
+@cindex foo
+@cindex baz
+@end ifnottex
+
+
+@node Introduction
+@chapter Introduction
+
+Code quality matters.
+
+There is one rule above all others:
+
+Be kind to the reader.
