@@ -85,7 +85,16 @@ you are presented with an opportunity, the use cases show where you
 might usefully parameterize and generalize. Grasp the opportunity!
 Do not let it pass you by.
 
+Like all code, copy-n-pasted code will probably contain bugs.
+Upon pasting it once or twice, it's a certainty that you've pasted one
+or two copies of each bug. When the original bug is noticed and fixed,
+it is unlikely that the pasted replicas will also be fixed. Parameterize!
 
+When you copy code, take care to keep it out of files that will be
+committed and deployed. Write a failing test, paste the code of interest
+as a helper method for the test, and edit to taste. Once the test is
+passing and you're happy with the code, commit it, then work on moving
+it out of the test and into the deployed production code base.
 
 
 @summarycontents
