@@ -58,6 +58,36 @@ Coupling of variables is a burden upon the reader.
 Definitely stop once a class has two dozen attributes - break it up.
 @end itemize
 
+Continuous integration.
+
+Always have a running system.
+
+As a special case of this, always have Jenkins running your unit tests.
+
+Measure code coverage of your tests.
+
+To implement a new feature, first write a failing test.
+
+When you notice you're unhappy with a computed result or an elapsed time,
+first write a failing test which captures that behavior, then edit the
+code until your test succeeds.
+
+
+Refactor.
+
+Parameterize.
+
+Copy-n-paste has its place in the development process,
+but not on the master branch, not in code that will be deployed.
+
+When you implement functionality for closely related use cases,
+you are presented with an opportunity, the use cases show where you
+might usefully parameterize and generalize. Grasp the opportunity!
+Do not let it pass you by.
+
+
+
+
 @summarycontents
 @contents
 @bye
