@@ -1,5 +1,5 @@
 
-OUT = guide.pdf
+OUT = guide.pdf guide.info
 
 all: $(OUT)
 

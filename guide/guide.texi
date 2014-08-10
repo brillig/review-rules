@@ -9,7 +9,7 @@
 @smallbook
 
 
-@copying
+@c @copying
 
 MIT licensed.
 
@@ -23,21 +23,21 @@ MIT licensed.
 
 @page
 @vskip 0pt plus 1filll
-@insertcopying
+@c @insertcopying
 @end titlepage
 
 @ifnottex
 @node Top
 @top review rules
 
-@insertcopying
+@c @insertcopying
 
 @cindex foo
 @cindex baz
 @end ifnottex
 
 
-@node Introduction
+@c @node Introduction
 @chapter Introduction
 
 Code quality matters.
@@ -45,3 +45,19 @@ Code quality matters.
 There is one rule above all others:
 
 Be kind to the reader.
+
+Several rules stem from this.
+@itemize @bullet
+@item
+DRY - don't repeat yourself.
+@item
+If a method has grown longer than a hundred lines, break it apart,
+with helper methods.
+@item
+Coupling of variables is a burden upon the reader.
+Definitely stop once a class has two dozen attributes - break it up.
+@end itemize
+
+@summarycontents
+@contents
+@bye

@@ -1,3 +1,10 @@
+*.cp
+*.fn
+*.ky
+*.pg
+*.tp
+*.vr
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
